@@ -17,6 +17,9 @@
     "serve": "^11.3.2",
     "web-vitals": "^1.1.2"
   },
+  "engines": {
+    "node": ">=6.9.0"
+  },
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts build",
